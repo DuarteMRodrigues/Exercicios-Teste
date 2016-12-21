@@ -26,10 +26,10 @@ public class Exercicio2 {
 			while(numero==aux);
 			
 			if(aux<numero&&(carater=='c'||carater=='C')){
-				aux=numero;
+				aux = numero;
 				contador++;
 			}else if(aux>numero&&(carater=='b'||carater=='B')){
-				aux=numero;
+				aux = numero;
 				contador++;
 			}else
 				break;
